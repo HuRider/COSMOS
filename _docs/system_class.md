@@ -15,7 +15,7 @@ The [system.rb](https://github.com/BallAerospace/COSMOS/blob/master/lib/cosmos/s
 
 ## Programming System
 
-Almost all custom COSMOS code needs to interact with System as it provides access to the COSMOS command and telemetry. The System clas is implemented as a [singleton](https://en.wikipedia.org/wiki/Singleton_pattern) which basically means there is only one instance of the class. This makes sense because COSMOS can only have a single instance which controls access to its internal state.
+Almost all custom COSMOS code needs to interact with System as it provides access to the COSMOS command and telemetry. The System class is implemented as a [singleton](https://en.wikipedia.org/wiki/Singleton_pattern) which basically means there is only one instance of the class. This makes sense because COSMOS can only have a single instance which controls access to its internal state.
 
 ### System.commands
 
